@@ -1,0 +1,25 @@
+<%-include("header")-%>
+    <div class="main">
+        <div class="title card">
+            <h1>Today</h1>
+        </div>
+
+        <div class="items card">
+            <ul>
+                <form action="/delete" method="post">
+                    <%for(var i=0;i<item.length;i++){%> 
+                        <div class="itm">
+                            <input type="checkbox" class="check" name="listName" value="<%=item[i].id%>" onchange="this.form.submit()">
+                            <label><%=item[i].name%></label><br>
+                        </div>
+                    <%}%>
+                </form>
+            </ul>
+            
+            <form action="/" method="post">
+                <input type="text" class="addItem" name="addToList" placeholder="New Item" style="text-align:center">
+                <button class="btn" name="button">+</button>
+            </form>
+        </div>        
+    </div>
+<%-include("footer")-%>

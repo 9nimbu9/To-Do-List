@@ -1,0 +1,58 @@
+body
+{
+    text-align: center;
+    min-height: 800px;
+    background-image: -webkit-linear-gradient(65deg, #252A34 50%, #FF2E63 50%);
+}
+.check
+{
+    margin: 5%;
+}
+.btn
+{
+    color: white;
+    border-radius: 50%;
+    background-color: #FF2E63;
+    font-size: 180%;
+    width: 50px;
+    height: 50px;
+    padding: 0% 0% 1% 0%;
+}
+label
+{
+    padding: 1em;
+    margin: auto;
+    font-size: 20px;
+    font-family: cursive;
+}
+.title
+{
+    padding: 0.2rem;
+    color: white;
+    background-color: #252A34;
+    margin:2.5% 35%;
+    text-align: center;
+}
+.addItem
+{
+    width: 75%;
+    padding: 1rem;
+    font-family: cursive;
+    border: none;
+    resize: none;
+    outline: none;
+    border-bottom:2px solid #FF2E63;
+    margin-bottom: 2.5%;
+}
+.items
+{
+    margin: 0% 35%;
+}
+.itm
+{
+    text-align: left;
+}
+ul
+{
+    padding: 0;
+}
